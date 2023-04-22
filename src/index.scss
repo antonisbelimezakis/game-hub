@@ -1,0 +1,38 @@
+form {
+  width: 100%;
+}
+
+.block {
+  display: block !important;
+}
+
+.Card:hover {
+  height: 100%;
+  width: 100%;
+
+  Button {
+    display: block;
+    margin-bottom: 5%;
+  }
+
+  Button:hover {
+    color: yellow;
+  }
+
+  .card-title:hover {
+    color: gray;
+  }
+  .text {
+    display: block;
+    padding-bottom: 8%;
+    padding-left: 8%;
+  }
+  .text:hover {
+    color: gray;
+  }
+  .image:hover {
+    background-color: #0b0b0b;
+    opacity: 0.4;
+    transition: 0.4s;
+  }
+}
