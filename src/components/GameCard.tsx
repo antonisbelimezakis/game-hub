@@ -57,6 +57,14 @@ const GameCard = ({ game }: Props) => {
       >
         {display ? "Show more like this" : "Nothing to display"}
       </Button>
+      <Button
+        colorScheme="gray"
+        size="lg"
+        display={"none"}
+        onClick={() => setDisplay(!display)}
+      >
+        {display ? "Show more like this" : "Nothing to display"}
+      </Button>
     </Card>
   );
 };
