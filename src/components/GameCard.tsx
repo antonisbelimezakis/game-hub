@@ -49,14 +49,6 @@ const GameCard = ({ game }: Props) => {
       <Text className="text" display={"none"}>
         Chart:
       </Text>
-      <Button
-        colorScheme="gray"
-        size="lg"
-        display={"none"}
-        onClick={() => setDisplay(!display)}
-      >
-        {display ? "Show more like this" : "Nothing to display"}
-      </Button>
     </Card>
   );
 };
