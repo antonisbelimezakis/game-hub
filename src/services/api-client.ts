@@ -1,8 +1,10 @@
 import axios from "axios";
+import dotenv from "dotenv";
+import express from "express";
 
 export default axios.create({
   baseURL: "https://api.rawg.io/api",
   params: {
-    key: "d4a1d5d252ba47c99e963d8786823c09",
+    key: `${import.meta.env.VITE_API_KEY}`,
   },
 });
